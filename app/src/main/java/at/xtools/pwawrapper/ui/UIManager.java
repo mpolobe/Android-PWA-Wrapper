@@ -101,7 +101,7 @@ public class UIManager {
             int color = typedValue.data;
 
             ActivityManager.TaskDescription description = new ActivityManager.TaskDescription(
-                    activity.getResources().getString(R.string.app_name),
+                    activity.getResources().getString(R.string.Afriteach),
                     iconWhite,
                     color
             );

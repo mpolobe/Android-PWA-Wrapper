@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "334380662581",
+    "firebase_url": "https://afriteach-aa319.firebaseio.com",
+    "project_id": "afriteach-aa319",
+    "storage_bucket": "afriteach-aa319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334380662581:android:526cbc77ca066c1bf6d67c",
+        "android_client_info": {
+          "package_name": "com.afriteach.afriteach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334380662581-lh6v4inc09hn06u08mmuds06cv97o7e4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR4_kn6KFz2exHcHMJqQ9Puzg9HvCjQsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334380662581-lh6v4inc09hn06u08mmuds06cv97o7e4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
