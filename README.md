@@ -92,6 +92,8 @@ Here is the App Distribution link to download the APK I wrapped. You can downloa
 
 When you sign up on the app distribution link from Firebase, you will receive an email with instructions on how to  to download the APK to an andorid device, install the app and test it.
 
+To set up your app on Firebase App Distribution, follow the instructions on this link https://firebase.google.com/docs/app-distribution
+
 
 
 
