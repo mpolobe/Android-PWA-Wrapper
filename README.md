@@ -48,8 +48,34 @@ This tutorial will highlight one of these — how we can go from our very own Re
 - Check `Constants.java` for more options
 - Build App in Android Studio
 
-### I don't accept Feature Requests, only Pull Requests :)
-
 ## License
 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) - if you use it, we wanna see it!
 Other licensing options are available on inquiry.
+
+### Detailed Tutorial Steps
+•	First deploy your react app to Firebase. To Deploy the app to Firebase use this tutorial https://www.youtube.com/watch?v=IDHfvpsYShs . You will need your Firebase URL in the android app in the app\google-services.json file. For example in my app the Firebase URL was  
+"firebase_url": https://afriteach-aa319.firebaseio.com. 
+
+•	You will also need the application ID from Firebase, which you will enter into the app/build.gradle file in Android studio wrapper project we will set up. In my case the application ID was applicationId "com.afriteach.afriteach"
+•	Download and install Android Studio 4.1https://developer.android.com/studio
+•	After downloading and installing Android Studio with all its latest updates,  go to File>New>Project from Version Control
+•	Clone/fork repository https://github.com/xtools-at/Android-PWA-Wrapper 
+•	In the Repository URL Enter https://github.com/xtools-at/Android-PWA-Wrapper.git and click Clone. Once the project has finished cloning make changes to the following files:
+•	Put your Web App's URL in WEBAPP_URL in Constants.java
+•	Replace app_name in strings.xml with the name of your App
+•	Add your own primary colors to colors.xml (colorPrimary, colorPrimaryDark, colorPrimaryLight)
+•	Put your own icons in place:
+o	Add your own ic_launcher.png and ic_launcher_round.png in the mipmap folders
+o	Add your own ic_appbar.png in the drawables folders. This is displayed in Android's Recent Apps View on your app bar, so it should look nicely when placed on top of your primary color.
+o	I recommend using Android Asset Studio to get the icons ready in no time
+•	Change the package name in app/build.gradle, applicationId
+•	Change AndroidManifest.xml -> aplication -> activity -> intent-filter to your own URLs/schemes/patterns/etc. or remove the intent-filter for android.intent.action.VIEW altogether
+•	Check Constants.java for more options
+•	Build App in Android Studio by going to Build>Generate Signed APK
+Follow the Wizard to create a signed APK that can be deployed on Google Firebase for Testing. 
+To connect Firebase to your app in Android Studio, go to  Tools>Firebase>Test Lab
+Rebuild the project in order to update the firebase dependencies in your project, and create a new signed APK. There a number of tutorials on how to setup Firebase dependencies in the app/build.gradle file. The best instructions are actually from Firebase tutorials https://firebase.google.com/docs/android/setup . Your app/build.grade file should look like the one below once the firebase dependencies are updated.
+
+
+
+
