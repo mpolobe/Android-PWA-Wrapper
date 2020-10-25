@@ -10,9 +10,19 @@ Check out my other projects:
 - [Electron-PWA-Wrapper](https://github.com/xtools-at/Electron-PWA-Wrapper) for macOS, Windows and Linux
 
 ## Why would I use a wrapper?
-I know, using a Wrapper-App to display a Website can feel a bit odd. But there are a few good reasons why you'd package your Web App like this.
-- If you've got a very sophisticated UI already, it might make sense not to rebuild it from scratch for multiple platforms, especally if it's a Single Page Application already, that doesn't "feel" like a Website.
-- There might be as well less competition for a given niche on App Stores, in comparison to Google directly. With [leasingrechnen.at](https://www.leasingrechnen.at), I've got easily into the Top 10 Apps on Google Play for my country, whereas Google Search put me on page 9 as the Site is relatively new.
+Progressive web apps (PWAs) are simply awesome. They enable us to build an app that serves all devices and form factors once, using web technologies. A PWA can be accessible over the web but also surface on the home screen of your Android/iOS device. That app can work offline, display a splash screen when it launches, and have notifications, too. 
+PWAs can help us save money as well. The alternative is building the same application using three different technologies (one for web, one for Android, and one for iOS).
+When we take this path, it’s hard to avoid a multiplication of cost and complexity. It often leads to dividing up the team as each works on a different stack. It is common to lose a certain amount of focus. PWAs can help here. They are a compelling alternative not just from a developer standpoint, but from a resourcing one, too.
+This tutorial will highlight one of these — how we can go from our very own React app to an android app using a “wrapper” in the quickest possible time.  Note that this tutorial presumes knowledge of:
+This tutorial will highlight one of these — how we can go from our very own React app to an android app using a “wrapper” in the quickest possible time.  Note that this tutorial presumes knowledge of:
+
+•	React 
+•	Node (https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/)
+•	Android Studio basics including building with Gradle
+•	Basics of hosting with Google Firebase (Firebase Tutorial https://www.youtube.com/watch?v=mmmaeHBCTOw)
+•	Basics of Creating a signed APK in Android Studio
+•	Hosting the APK in an android emulator
+
 
 ## What it does
 - Sets up a WebView just the way PWAs/SPAs like it (e.g. enables App cache and DOM storage, ...).
