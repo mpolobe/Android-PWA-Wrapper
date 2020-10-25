@@ -2,6 +2,8 @@
 The detailed tutorial can be found here for the Forked App https://drive.google.com/file/d/1y7yPqE2wEkxr983168RGaBjVH5kC5Jmz/view?usp=sharing
 An Android Wrapper application to create native Android Apps from an offline-capable Progressive Web App.
 
+The YouTube Video explaining the tutorial which is only a couple of minutes long is here https://www.youtube.com/watch?v=1TuiHoSZMOQ
+
 Drafted for the [Android App](https://appdistribution.firebase.google.com/pub/i/88e2d08dfbd01e93) of my [Afriteach App](http://www.afriteach.com/) Web App using [React](https://github.com/facebook/react), [Redux](https://github.com/reactjs/redux), [Materialize.css](https://github.com/Dogfalo/materialize) and a lot of Offline-First love over at [afriteach.com/](http://www.afriteach.com/).
 
 ## Looking for iOS or Desktop?
