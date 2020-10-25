@@ -52,7 +52,7 @@ This tutorial will highlight one of these — how we can go from our very own Re
 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) - if you use it, we wanna see it!
 Other licensing options are available on inquiry.
 
-### Detailed Tutorial Steps
+### Detailed Tutorial Steps - Part 1
 •	First deploy your react app to Firebase. To Deploy the app to Firebase use this tutorial https://www.youtube.com/watch?v=IDHfvpsYShs . You will need your Firebase URL in the android app in the app\google-services.json file. For example in my app the Firebase URL was  
 "firebase_url": https://afriteach-aa319.firebaseio.com. 
 
@@ -72,9 +72,25 @@ o	I recommend using Android Asset Studio to get the icons ready in no time
 •	Change AndroidManifest.xml -> aplication -> activity -> intent-filter to your own URLs/schemes/patterns/etc. or remove the intent-filter for android.intent.action.VIEW altogether
 •	Check Constants.java for more options
 •	Build App in Android Studio by going to Build>Generate Signed APK
-Follow the Wizard to create a signed APK that can be deployed on Google Firebase for Testing. 
+
+
+### Detailed Tutorial Steps - Part 2
+Follow the Signed APK Wizard in Android Studio to create a signed APK that can be deployed on Google Firebase for Testing. 
 To connect Firebase to your app in Android Studio, go to  Tools>Firebase>Test Lab
 Rebuild the project in order to update the firebase dependencies in your project, and create a new signed APK. There a number of tutorials on how to setup Firebase dependencies in the app/build.gradle file. The best instructions are actually from Firebase tutorials https://firebase.google.com/docs/android/setup . Your app/build.grade file should look like the one below once the firebase dependencies are updated.
+
+Go to developer.google.com for deployment to the Google play Store with the Google play console https://developer.android.com/distribute.
+Follow the steps to create a new app and deploy on the Google play store.
+Here is a link to the Github Repository https://github.com/mpolobe/Android-PWA-Wrapper.
+You can test your APK wrapper by uploading the Apk to https://appetize.io/. Here is the link to the Reactjs app on Appetize.io after our android wrapped app was loaded.
+https://appetize.io/app/txkecypjfgw7ennh5twm7wr87g?device=galaxytabs7&scale=75&orientation=portrait&osVersion=10.0
+You can also distribute your app on Google Firebase before deploying to the Play store by going to https://firebase.google.com/ and signing up with your Gmail account.
+
+### Detailed Tutorial Steps - Part 3 - Testing the Deployed APK
+
+Here is the App Distribution link to download the APK I wrapped. You can download and  and install the app on an android phone https://appdistribution.firebase.google.com/pub/i/88e2d08dfbd01e93
+
+When you sign up on the app distribution link from Firebase, you will receive an email with instructions on how to  to download the APK to an andorid device, install the app and test it.
 
 
 
