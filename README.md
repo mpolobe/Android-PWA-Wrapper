@@ -2,7 +2,7 @@
 The detailed tutorial can be found here for the Forked App https://drive.google.com/file/d/1y7yPqE2wEkxr983168RGaBjVH5kC5Jmz/view?usp=sharing
 An Android Wrapper application to create native Android Apps from an offline-capable Progressive Web App.
 
-Drafted for the [Android App](https://play.google.com/store/apps/details?id=at.xtools.leasingrechner&utm_source=github.com&utm_medium=link&utm_campaign=store_visit) of my [Leasing Calculator](https://www.leasingrechnen.at) Web App using [React](https://github.com/facebook/react), [Redux](https://github.com/reactjs/redux), [Materialize.css](https://github.com/Dogfalo/materialize) and a lot of Offline-First love over at [leasingrechnen.at](https://www.leasingrechnen.at).
+Drafted for the [Android App](https://appdistribution.firebase.google.com/pub/i/88e2d08dfbd01e93) of my [Afriteach App](http://www.afriteach.com/) Web App using [React](https://github.com/facebook/react), [Redux](https://github.com/reactjs/redux), [Materialize.css](https://github.com/Dogfalo/materialize) and a lot of Offline-First love over at [afriteach.com/](http://www.afriteach.com/).
 
 ## Looking for iOS or Desktop?
 Check out my other projects:
